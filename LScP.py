@@ -4,8 +4,8 @@
 #LScrawler for PYTHON!!
 import requests
 import threading
-import time
-import urllib.request  
+import time  
+import urllib
 import os  
 
 STATIC_PREFIX = "http://www.lschs.org/uploaded/_assets/images/portraits/students/2015-16/"
