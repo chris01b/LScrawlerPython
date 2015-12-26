@@ -1,7 +1,4 @@
-#Every script or application has their own dignity.
-#Please make them wonderful and leave them no bug.
-
-#LScrawler for PYTHON!!
+#!/usr/bin/env python3
 import requests
 import threading
 import time  
@@ -12,8 +9,8 @@ STATIC_PREFIX = "http://www.lschs.org/uploaded/_assets/images/portraits/students
 STATIC_SUFFIX = ".jpg"
 DEFAULT_START = 160000
 DEFAULT_END = 200000
-DEFAULT_THREAD_LIMIT = 1000
-DEFAULT_THREAD_START_DELAY = 0.01
+DEFAULT_THREAD_LIMIT = 2500
+DEFAULT_THREAD_START_DELAY = 0.001
 DO_DOWNLOAD = True
 NOT_IMPORTANT_MSG = True
 
